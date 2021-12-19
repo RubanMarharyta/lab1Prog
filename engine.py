@@ -20,5 +20,5 @@ class Note:
         if Note.note_list:
             return 1
         else:
-            print("list empty")
+            print("list empty for now")
             return 0
