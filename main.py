@@ -11,7 +11,7 @@ while 1:
         break
 
     if act == '':
-        print('enter something')
+        print('enter something:')
         continue
 
     if act.split('-')[0] == 'save':
