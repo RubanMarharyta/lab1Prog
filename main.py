@@ -21,7 +21,7 @@ while 1:
         Note.show()
 
     elif act.split('-')[0] == 'edit':
-        enter = input('enter new note ')
+        enter = input('enter new note or smth else')
         Note.edit(act.split('-')[1], enter)
 
     elif act.split('-')[0] == 'delete':
